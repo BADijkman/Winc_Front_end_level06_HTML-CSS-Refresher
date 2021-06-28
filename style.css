@@ -1,0 +1,81 @@
+*, *::before, ::after{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box; 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display:flex;
+
+    width:80rem;
+    margin: 5rem;
+    padding: 2rem;
+    border: 0.1rem solid black;
+    justify-content: center;
+    gap: 2rem;
+}
+.blok1, .blok2{
+    width: 100%;
+    height: 20rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;     
+}
+.foto img{
+    width: 4rem;  
+}
+.boven{
+    display:flex;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-between;  
+}
+.boven :first-child{
+    font-size: 2rem;
+}
+
+.boven :last-child{
+    font-size: 1.5rem;
+    color: rgb(132, 130, 130);
+}
+.midden{
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 0.1rem solid gray;
+}
+.midden >p{
+    color: rgb(57, 55, 55);
+    font-size: 1.8rem;
+}
+.onder{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.onder :first-child{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid green;
+    border-right: 0;
+    color: green;
+    text-align: center;
+    border-radius: 0.5rem 0 0 0.5rem ;
+  
+}
+.onder :last-child{
+    width: 100%;
+    border: 1px solid red;
+    padding: 1rem;
+    color: red;
+    text-align: center;
+    border-radius: 0 0.5rem 0.5rem 0 ;
+
+}
